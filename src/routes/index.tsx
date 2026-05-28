@@ -1,29 +1,29 @@
 import { createFileRoute } from "@tanstack/react-router";
+import SalonSite from "@/components/SalonSite";
+import { Toaster } from "@/components/ui/sonner";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Your App" },
-      { name: "description", content: "Replace this with a one-sentence description of your app." },
-      { property: "og:title", content: "Your App" },
-      { property: "og:description", content: "Replace this with a one-sentence description of your app." },
+      { title: "Stile & Co. — Salone di Bellezza a Roma" },
+      { name: "description", content: "Stile & Co., salone di bellezza nel cuore di Roma. Taglio, colore, extension, manicure e cura ciglia. Prenota il tuo appuntamento." },
+      { property: "og:title", content: "Stile & Co. — Salone di Bellezza a Roma" },
+      { property: "og:description", content: "Atelier di bellezza a Roma: taglio, colore, mèches, extension, parrucche, manicure, ciglia e sopracciglia." },
+    ],
+    links: [
+      { rel: "preconnect", href: "https://fonts.googleapis.com" },
+      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "" },
+      { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Inter:wght@300;400;500;600&display=swap" },
     ],
   }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. See ./README.md for routing conventions.
 function Index() {
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
-    </div>
+    <>
+      <SalonSite />
+      <Toaster position="top-center" />
+    </>
   );
 }
