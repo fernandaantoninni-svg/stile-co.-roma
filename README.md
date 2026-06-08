@@ -1,4 +1,5 @@
 # Stile & Co. — Salone di Bellezza
+- Sito per visualizzare https://stileco-web-design.lovable.app
 
 Site institucional em italiano para o salão de beleza **Stile & Co.**, localizado no centro de Roma, Itália. O projeto apresenta uma identidade visual moderna e elegante, inspirada no universo da estética de alta costura italiana.
 
