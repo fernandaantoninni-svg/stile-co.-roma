@@ -1,81 +1,82 @@
 # Stile & Co. — Salone di Bellezza
-- Sito per visualizzare https://stileco-web-design.lovable.app
 
-Site institucional em italiano para o salão de beleza **Stile & Co.**, localizado no centro de Roma, Itália. O projeto apresenta uma identidade visual moderna e elegante, inspirada no universo da estética de alta costura italiana.
+Sito vetrina in italiano per il salone di bellezza **Stile & Co.**, situato nel cuore di Roma. Il progetto presenta un'identità visiva moderna ed elegante, ispirata all'universo dell'estetica di alta moda italiana.
+
+Anteprima online: https://stileco-web-design.lovable.app
 
 ---
 
 ## Design
 
-- **Paleta**: tons creme, blush e dourado (gold), com suporte a tema escuro
-- **Tipografia**: *Cormorant Garamond* (títulos) + *Inter* (corpo)
-- **Estilo**: minimalista sofisticado, com espaçamento generoso e hierarquia tipográfica clara
+- **Palette**: tonalità crema, blush e oro, con supporto al tema scuro
+- **Tipografia**: *Cormorant Garamond* (titoli) + *Inter* (corpo del testo)
+- **Stile**: minimalismo sofisticato, con spaziature ampie e una gerarchia tipografica chiara
 
 ---
 
-## Seções do Site
+## Sezioni del Sito
 
-1. **Hero** — imagem de destaque com gradiente overlay, tagline e botões de ação
-2. **Servizi (Serviços)** — 8 cards de serviços (taglio, colorazione, mèches, idratazione, extension, parrucche, manicure/pedicure, ciglia & sopracciglia)
-3. **Chi Siamo** — apresentação do salão, equipe e filosofia
-4. **Contatti** — informações de contato fictícias (endereço em Roma, telefone, e-mail, horários) + formulário de mensagens
+1. **Hero** — immagine d'apertura con overlay sfumato, tagline e pulsanti di azione
+2. **Servizi** — 8 card di servizi (taglio, colorazione, mèches, idratazione, extension, parrucche, manicure/pedicure, ciglia & sopracciglia)
+3. **Chi Siamo** — presentazione del salone, del team e della filosofia
+4. **Contatti** — informazioni di contatto fittizie (indirizzo a Roma, telefono, e-mail, orari) e modulo messaggi
 5. **Footer** — copyright e branding
 
 ---
 
-## Tecnologias
+## Tecnologie
 
-- [TanStack Start](https://tanstack.com/start) — framework full-stack React com SSR
+- [TanStack Start](https://tanstack.com/start) — framework full-stack React con SSR
 - [React 19](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/)
-- [Tailwind CSS v4](https://tailwindcss.com/) — estilização utilitária
-- [shadcn/ui](https://ui.shadcn.com/) — componentes base (Sonner, etc.)
-- [Lucide React](https://lucide.dev/) — ícones
-- [Zod](https://zod.dev/) — validação de dados
+- [Tailwind CSS v4](https://tailwindcss.com/) — stilizzazione utility-first
+- [shadcn/ui](https://ui.shadcn.com/) — componenti di base (Sonner, ecc.)
+- [Lucide React](https://lucide.dev/) — icone
+- [Zod](https://zod.dev/) — validazione dei dati
 
 ---
 
-## Scripts Disponíveis
+## Script Disponibili
 
-| Comando | Descrição |
-|---------|-----------|
-| `bun dev` | Inicia o servidor de desenvolvimento |
-| `bun run build` | Gera a build de produção |
-| `bun run build:dev` | Build em modo desenvolvimento |
-| `bun run preview` | Pré-visualiza a build localmente |
-| `bun run lint` | Executa o ESLint |
-| `bun run format` | Formata o código com Prettier |
+| Comando | Descrizione |
+|---------|-------------|
+| `bun dev` | Avvia il server di sviluppo |
+| `bun run build` | Genera la build di produzione |
+| `bun run build:dev` | Build in modalità sviluppo |
+| `bun run preview` | Anteprima locale della build |
+| `bun run lint` | Esegue ESLint |
+| `bun run format` | Formatta il codice con Prettier |
 
 ---
 
-## Estrutura de Pastas
+## Struttura delle Cartelle
 
 ```
 src/
-├── assets/              # Imagens (hero-salon.jpg, portrait.jpg)
+├── assets/              # Immagini (hero-salon.jpg, portrait.jpg)
 ├── components/
-│   ├── SalonSite.tsx    # Componente principal (single-page)
-│   └── ui/              # Componentes shadcn/ui
+│   ├── SalonSite.tsx    # Componente principale (single-page)
+│   └── ui/              # Componenti shadcn/ui
 ├── routes/
-│   ├── index.tsx        # Página inicial ("/")
-│   ├── __root.tsx       # Layout raiz
-│   └── ...              # Outras rotas
-├── styles.css           # Tokens de design e tema
-└── router.tsx           # Configuração do roteador
+│   ├── index.tsx        # Pagina iniziale ("/")
+│   ├── __root.tsx       # Layout radice
+│   └── ...              # Altre rotte
+├── styles.css           # Token di design e tema
+└── router.tsx           # Configurazione del router
 ```
 
 ---
 
-## Dados de Contato (Fictícios)
+## Dati di Contatto (Fittizi)
 
-> Usados apenas para demonstração no site.
+> Utilizzati esclusivamente a scopo dimostrativo all'interno del sito.
 
-- **Endereço**: Via dei Coronari 142, 00186 Roma, Italia
-- **Telefone**: +39 06 6821 4475
+- **Indirizzo**: Via dei Coronari 142, 00186 Roma, Italia
+- **Telefono**: +39 06 6821 4475
 - **E-mail**: info@stileandco.it
-- **Horário**: Mar–Ven 09:00–20:00 | Sab 09:00–19:00 | Dom & Lun chiuso
+- **Orari**: Mar–Ven 09:00–20:00 | Sab 09:00–19:00 | Dom & Lun chiuso
 
 ---
 
-## Licença
+## Licenza
 
-Projeto de demonstração. Todos os direitos reservados — Stile & Co.
+Progetto dimostrativo. Tutti i diritti riservati — Stile & Co.
