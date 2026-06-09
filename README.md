@@ -1,8 +1,8 @@
 # Stile & Co. — Salone di Bellezza
-
+-Sito per vizualizzare https://stileco-web-design.lovable.app
 Sito vetrina in italiano per il salone di bellezza **Stile & Co.**, situato nel cuore di Roma. Il progetto presenta un'identità visiva moderna ed elegante, ispirata all'universo dell'estetica di alta moda italiana.
 
-Anteprima online: https://stileco-web-design.lovable.app
+
 
 ---
 
